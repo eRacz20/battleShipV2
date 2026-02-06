@@ -20,8 +20,7 @@ These features only affect the display and do not change how the game works inte
 
 
 
-**
-Iteration 2 – Gameplay Feature**
+**Iteration 2 – Gameplay Feature**
 
 The second iteration added a simple power-up to make the game more interesting.
 
