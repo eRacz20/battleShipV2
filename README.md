@@ -1,4 +1,4 @@
-Iteration 1 – Interface Improvements
+**Iteration 1 – Interface Improvements**
 
 The first iteration focused on making the game feel more personal and informative for the player.
 
@@ -17,7 +17,11 @@ Accuracy percentage
 
 These features only affect the display and do not change how the game works internally.
 
-Iteration 2 – Gameplay Feature
+
+
+
+**
+Iteration 2 – Gameplay Feature**
 
 The second iteration added a simple power-up to make the game more interesting.
 
