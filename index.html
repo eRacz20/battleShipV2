@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battleship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Battleship</h1>
+
+<div class="controls">
+    <button id="start">Start Game</button>
+    <button id="double-shot">Double Shot (1×)</button>
+</div>
+
+<!-- STATS PANEL -->
+<div id="stats-panel">
+    <h3>Player Stats</h3>
+    <p>Shots Fired: <span id="shots-fired">0</span></p>
+    <p>Hits: <span id="hits">0</span></p>
+    <p>Misses: <span id="misses">0</span></p>
+    <p>Accuracy: <span id="accuracy">0%</span></p>
+</div>
+
+<div class="boards">
+
+    <div class="board-column">
+        <h2 id="player-name-title">Your Board</h2>
+
+        <input
+            type="text"
+            id="player-name-input"
+            placeholder="Enter your name"
+            maxlength="20"
+        />
+
+        <div id="player" class="board"></div>
+    </div>
+
+    <div class="board-column">
+        <h2>Enemy Board</h2>
+        <div class="input-spacer"></div>
+        <div id="enemy" class="board"></div>
+    </div>
+
+</div>
+
+<p id="status"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
